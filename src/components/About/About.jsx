@@ -25,8 +25,8 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
+                "Fullstack Web Developer",
                 "Android App Developer",
-                "Web Developer",
                 "Problem Solver",
               ]}
               speed={100}
@@ -40,13 +40,10 @@ const About = () => {
           </h3>
           {/* About Me para */}
           <p className="text-base sm:text--lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a passionate Android App Developer and Web Developer with a
-            knack for solving complex problems. I love creating innovative
-            solutions that enhance user experiences and make technology more
-            accessible. Let's connect and explore how we can collaborate!
+            Full Stack Java Web Developer with experience of building projects, skilled in building scalable applications using Spring Boot, PostgreSQL, and JWT for secure and efficient backends, along with React.js and Tailwind CSS for modern, responsive frontends. Proven ability to collaborate in dynamic team environments, deliver practical solutions, and continuously enhance technical expertise through hands-on development. Additionally, experienced in Android application development with strong knowledge of Kotlin, Firebase, Retrofit, and related technologies, contributing to both mobile and web ecosystems.
           </p>
           <a
-            href="https://drive.google.com/file/d/1VZmu9fKEdLkrSvzhNgXIpWPmhoX9yZaA/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_XxJeYO8CWmXn2cZGpF4K0sfbdNXQ6MA/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -55,7 +52,7 @@ const About = () => {
               boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
-            Download Resume
+            View Resume
           </a>
         </div>
 
