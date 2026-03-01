@@ -42,6 +42,7 @@ import guardianLogo from './assets/work_logo/guardianApp.png';
 import aiInterview from './assets/work_logo/aiInterview.png';
 import pixlyCover from './assets/work_logo/pixlyCover.png';
 import pdfixCover from './assets/work_logo/pdfix-cover.png';
+import safarsetuCover from './assets/work_logo/safarsetuCover.png'
 
 
 export const SkillsInfo = [
@@ -179,6 +180,16 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+    {
+      id: 6,
+      title: "Safar Setu - Vehicle Rental Management",
+      description:
+        "Safar Setu is a full-stack vehicle rental management platform that brings together fleet management, subscription billing, smart reservations, Razorpay payments, and AI assistance into one seamless experience — built for both admins and riders.",
+      image: safarsetuCover,
+      tags: ["Spring Boot", "React JS", "Razorpay", "Docker", "MySQL", "OAuth2", "Vercel"],
+      github: "https://github.com/vaishnavgupta/Safar-Setu-Vehicle-Rental-Management",
+      webapp: "https://safarsetu.pixly.space",
+    },
     {
       id: 7,
       title: "Pixly - URL Shortener & Analytics",
